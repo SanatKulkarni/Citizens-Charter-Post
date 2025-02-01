@@ -8,7 +8,6 @@ function log(message) {
   console.log(`[${new Date().toISOString()}] ${message}`);
 }
 
-// Hardcoded Credentials (FOR HACKATHON USE ONLY - NOT RECOMMENDED FOR PRODUCTION)
 const TWILIO_ACCOUNT_SID = process.env.TWILIO_ACCOUNT_SID;
 const TWILIO_AUTH_TOKEN = process.env.TWILIO_AUTH_TOKEN;
 const TWILIO_PHONE_NUMBER = process.env.TWILIO_NUMBER;
